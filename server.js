@@ -9,6 +9,9 @@ app.use(express.json());
 app.use(cors())
 const port = process.env.PORT || 3000;
 
+app.get("/", (req, res) => {
+  return res.json("hello world")
+})
 app.get("/usuarios", async (req, res) => {
   
   let users = [
