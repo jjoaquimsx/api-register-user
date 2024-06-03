@@ -1,0 +1,7 @@
+HTTP metodos 
+
+Get - Listar
+Post - Criar 
+Put - Editar varios
+Patch - Editar UM
+Delete - Deletar
